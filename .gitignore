@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Java
+*.class
+
+# C / C++ build outputs
+*.o
+*.out
+a.out
+*.dSYM/
+testMatrix
+ca2
+
+# Node
+node_modules/
+
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# SQLite databases (kept only where an assignment specification requires the file)
+*.db
+!web-development/backend/book-management-api/database.db
+!web-development/full-stack/music-library/backend/data/app.db
+
+# course material and archives
+*.pdf
+*.zip
