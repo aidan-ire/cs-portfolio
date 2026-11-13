@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B3DEC1;
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+nav, header {
+    background-color: #00241B;
+    padding: 12px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #C0BCB5;
+}
+
+nav a:hover {
+    color: #94B0DA;
+}
+
+#nav_list {
+    list-style: none;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.intro_card, .week_card, .skills_card {
+    border: 5px solid #4E878C;
+    border-radius: 15px;
+    padding: 15px;
+    height: 300px;
+    width: 300px;
+    background-color: #DFE2CF;
+    margin: 20px;
+}
+
+.intro_card h1, .week_card h2, .skills_card h2 {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.intro_card img {
+    float: right;
+    width: 75px;
+    height: 100px;
+    border: solid 1.5px #00241B;
+    border-radius: 10%;
+}
+
+.intro_card h1 {
+    position: relative;
+    font-size: 24px;
+}
+
+.intro {
+    margin: 15px;
+}
+
+footer {
+    background-color: #00241B;
+    padding: 12px;
+}
+
+footer p {
+    color: #C0BCB5;
+}
+
+td {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1.5px solid #94B0DA;
+}
+
+table {
+    border-collapse: collapse;
+    width: 260px;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+#fname, #lname, #message, #email {
+    margin: 5px 5px 5px 0px;
+    padding: 5px;
+    background-color: #DFE2CF;
+    border-radius: 5px;
+    resize: none;
+    width: 500px;
+    border: none;
+}
+
+#fname, #lname, #email {
+    height: 50px;
+}
+
+#message {
+    height: 100px;
+}
+
+#button {
+    background-color: #00241B;
+    border-radius: 5px;
+    color: #DFE2CF;
+    width: 75px;
+    height: 35px;
+    border: none;
+}
+
+label {
+    color: #00241B;
+}
+
+a {
+    padding: 15px;
+}

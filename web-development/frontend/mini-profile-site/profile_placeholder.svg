@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400">
+    <!-- placeholder profile picture: plain background with a head and shoulders outline -->
+    <rect width="300" height="400" fill="#B3DEC1"/>
+    <circle cx="150" cy="150" r="70" fill="#4E878C"/>
+    <path d="M30 400 C30 290 90 250 150 250 C210 250 270 290 270 400 Z" fill="#4E878C"/>
+</svg>
