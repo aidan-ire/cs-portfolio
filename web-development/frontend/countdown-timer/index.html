@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Timer</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <nav id="nav_bar">
+                    <button><a href="index.html">Timer</a></button>
+            </nav>
+        </header>
+
+        <main>
+            <div class="timer_container">
+                <div class="apple_timer">
+                    <img src="apple.svg"  id="apple" alt="green apple with a stalk and a leaf">
+                    <p id="timer">60</p>
+                </div>
+
+                <div class="buttons">
+                    <button id="Start" onclick="startTimer()">Start</button>
+                    <button id="Pause" onclick="pauseTimer()" disabled >Pause</button>
+                    <button id="Stop" onclick="stopTimer()" disabled >Stop</button>
+                </div>
+            </div>
+        </main>
+
+    <footer>
+        <p>&copy; Aidan Hughes</p>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+</html>

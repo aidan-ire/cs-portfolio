@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+    <!-- green apple drawn by hand for the timer background, transparent outside the apple -->
+    <!-- stalk -->
+    <path d="M150 100 C148 75 152 55 164 38" fill="none" stroke="#6B4423" stroke-width="9" stroke-linecap="round"/>
+    <!-- leaf -->
+    <path d="M160 70 C180 35 225 30 245 45 C230 80 190 90 160 70 Z" fill="#74A57F"/>
+    <!-- body: two lobes that meet in a dip under the stalk -->
+    <path d="M150 105 C120 80 45 85 45 165 C45 230 95 280 125 280 C138 280 143 274 150 274 C157 274 162 280 175 280 C205 280 255 230 255 165 C255 85 180 80 150 105 Z" fill="#3E8E41"/>
+    <!-- highlight -->
+    <path d="M78 150 C82 125 98 112 115 110" fill="none" stroke="#8FD694" stroke-width="10" stroke-linecap="round"/>
+</svg>
