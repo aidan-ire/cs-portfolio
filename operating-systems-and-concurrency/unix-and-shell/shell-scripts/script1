@@ -1,0 +1,4 @@
+#!/bin/bash
+# prints a greeting and then the date. usage: ./script1
+echo hello world
+date

@@ -1,0 +1,3 @@
+#!/bin/bash
+# searches the home directory tree for file names matching a pattern. usage: ./filefind pattern
+du -a ~ | grep "$1"

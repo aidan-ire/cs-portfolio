@@ -1,0 +1,3 @@
+#!/bin/bash
+# lists every dictionary word containing the string hell. usage: ./script2
+grep hell /usr/share/dict/words

@@ -1,0 +1,3 @@
+#!/bin/bash
+# prints its first argument. usage: ./script3 word
+echo $1

@@ -1,0 +1,3 @@
+#!/bin/bash
+# crossword helper, lists dictionary words that fit an outline in n columns. usage: ./xword b..m.. 5
+grep "^$1\$" /usr/share/dict/words | pr -"$2" | grep -v '^$'
