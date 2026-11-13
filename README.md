@@ -1,8 +1,10 @@
 # CS portfolio
 
-Programming work from my Computer Science and Software Engineering degree, plus some self-directed
-machine learning. It's organised by topic rather than by course. Every project folder has its own
+Programming work from my Computer Science and Software Engineering degree. It's organised by topic rather than by course. Every project folder has its own
 README with what the code does, how to build and run it, and sample output.
+
+My machine learning projects, including a character-level transformer trained on Shakespeare, are
+in a separate repo: [machine-learning](https://github.com/aidan-ire/machine-learning).
 
 | Area | Languages | Contents |
 |---|---|---|
@@ -11,12 +13,11 @@ README with what the code does, how to build and run it, and sample output.
 | [operating-systems-and-concurrency](operating-systems-and-concurrency/) | C, Java, shell | Unix and shell scripting, processes and pipes, message queues, sockets and RMI, and semaphore-based concurrency problems |
 | [web-development](web-development/) | HTML, CSS, JavaScript, Node.js | static and responsive frontends, a REST API with Express and SQLite, and a full-stack music library |
 | [cpp](cpp/) | C++ | number algorithms, C-string functions and a matrix class with operator overloading |
-| [machine-learning](machine-learning/) | Python, PyTorch | linear and logistic regression notebooks and a character-level transformer (self-directed) |
 
 ## Highlights
 
-- [Shakespeare transformer](machine-learning/char-transformer-shakespeare/): character-level transformer language model trained on the complete works of Shakespeare.
-- [Gradient descent from scratch](machine-learning/linear-regression-gradient-descent/): linear regression trained with hand-written gradient descent, compared against scikit-learn.
+- [Shakespeare transformer](https://github.com/aidan-ire/machine-learning/tree/main/char-transformer-shakespeare): character-level transformer language model trained on the complete works of Shakespeare.
+- [Gradient descent from scratch](https://github.com/aidan-ire/machine-learning/tree/main/linear-regression-gradient-descent): linear regression trained with hand-written gradient descent, compared against scikit-learn.
 - [Full-stack music library](web-development/full-stack/music-library/): an Express and SQLite API with a plain JavaScript frontend.
 - [C++ matrix class](cpp/matrix-class/): an integer matrix with dynamic memory and operator overloading.
 - [KMP string search](algorithms-and-data-structures/strings/kmp-string-search/): finds every occurrence of a pattern using the KMP partial match table.
@@ -31,7 +32,6 @@ README with what the code does, how to build and run it, and sample output.
 - Java: `javac` and `java`, one folder per exercise or project
 - C and C++: `gcc`/`g++` or `clang`, with a `Makefile` where a project has one
 - Node.js and SQLite for the web backends
-- Python 3, Jupyter and PyTorch for machine learning (see `machine-learning/requirements.txt`)
 
 ## Notes
 
