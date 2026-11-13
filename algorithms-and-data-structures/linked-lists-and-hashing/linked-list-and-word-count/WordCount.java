@@ -13,6 +13,7 @@ public class WordCount{
         }
 
         String text = new String(Files.readAllBytes(Paths.get(path))).toLowerCase();
+        text = novelText(text); // leave out the project gutenberg header and licence if the file has them
         String[] words = text.split("\\W+"); // split on anything that isn't a letter, digit or underscore
 
         HashMap<String, Integer> map = countWords(words);
@@ -29,6 +30,30 @@ public class WordCount{
         }else{
             System.out.println("Most frequent six-letter word: " + best + " (" + map.get(best) + " times)");
         }
+    }
+
+    /*
+     * novelText
+     * the project gutenberg edition has a header before the novel and a licence
+     * after it, marked off by a line starting "*** START" and a line starting
+     * "*** END". this cuts the text down to what is between those two lines so
+     * only the novel is counted. the text has already been lowercased.
+     * Arguments:
+     *   text - the whole file in lowercase
+     * Returns:
+     *   the text between the two marker lines, or the text unchanged if either
+     *   marker is missing
+     */
+    public static String novelText(String text){
+        int start = text.indexOf("*** start");
+        int end = text.indexOf("*** end");
+
+        if(start == -1 || end == -1 || end < start) return text; // not a gutenberg file, count all of it
+
+        int lineEnd = text.indexOf('\n', start); // the marker line has the title in it, so skip the whole line
+        if(lineEnd == -1 || lineEnd > end) return text;
+
+        return text.substring(lineEnd + 1, end);
     }
 
     /*

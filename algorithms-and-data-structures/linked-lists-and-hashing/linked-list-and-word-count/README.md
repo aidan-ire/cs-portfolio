@@ -75,26 +75,32 @@ empty list.
 ## Task 6: word count with a HashMap
 
 `WordCount` reads the whole file, lowercases it, and splits it into words with `split("\\W+")` as the
-lab suggests. Each word goes into a `HashMap<String, Integer>` with `containsKey` and `put`: 1
-the first time it is seen, and one higher each time after that. The program then goes through
-`entrySet()` and keeps the six-letter word with the highest count.
+lab suggests. If the file is the Project Gutenberg edition, only the novel itself is counted:
+the text between the line starting `*** START` and the line starting `*** END`. A file without those
+two lines is counted in full.
+
+Each word goes into a `HashMap<String, Integer>` with `containsKey` and `put`: 1 the first time it is
+seen, and one higher each time after that. The program then goes through `entrySet()` and keeps the
+six-letter word with the highest count.
 
 ### Result
 
 ```
-Words in the text: 83654
-Different words: 7181
-Most frequent six-letter word: dorian (419 times)
+Words in the text: 80493
+Different words: 6843
+Most frequent six-letter word: dorian (415 times)
 ```
 
-The most frequent six-letter word is **dorian**. The next ones are a long way behind (`things` 130,
+The most frequent six-letter word is **dorian**. The next ones are a long way behind (`things` 128,
 `seemed` 119).
 
 ### Tests run
 
 | File | Output | Checks |
 |---|---|---|
-| the novel | `dorian (419 times)` | counts agree with a separate count of the same file |
+| the novel | `dorian (415 times)` | counts agree with a separate count of the same file |
+| text before `*** START`, a title on the marker line, text after `*** END` | only the words between the two lines are counted | header, marker line and licence left out |
+| file with a `*** START` line but no `*** END` line | whole file counted | incomplete markers |
 | `Hello, hello! Six-letter words: yellow yellow purple. _x_ 42` | 10 words, 8 different, `yellow (2 times)` | case folding, punctuation, repeated words |
 | `a bb ccc` | `There are no six-letter words in the text` | no word of the right length |
 | empty file | 0 words, no six-letter words | empty input |
@@ -104,8 +110,8 @@ The most frequent six-letter word is **dorian**. The next ones are a long way be
 
 - `dorian.txt` isn't included in this folder. The counts above are from the plain text edition on
   [Project Gutenberg](https://www.gutenberg.org/ebooks/174) (ebook 174), saved as UTF-8. That file
-  has Project Gutenberg's own header and licence text around the novel, which is counted too, so the
-  totals depend on the copy used. Without that extra text `dorian` appears 416 times and is still
-  first.
+  has Project Gutenberg's own header and licence text around the novel, which the program leaves out.
+  The title page, preface and chapter headings are between the two marker lines, so they are counted.
+  A different edition of the text may give slightly different totals.
 - `\\W+` treats letters, digits and the underscore as part of a word, so a hyphenated word counts as
   two words and `don't` becomes `don` and `t`.
