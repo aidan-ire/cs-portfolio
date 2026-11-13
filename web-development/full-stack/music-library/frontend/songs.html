@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Songs | Music Library</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <nav id="nav_bar">
+                <a href="index.html">Home</a>
+                <a href="artists.html">Artists</a>
+                <a href="albums.html">Albums</a>
+                <a href="songs.html" class="current">Songs</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="card">
+                <h1>Songs</h1>
+                <form id="song_form">
+                    <label for="song_name">Song name</label>
+                    <input type="text" id="song_name" name="song_name">
+
+                    <label for="release_year">Release year</label>
+                    <input type="number" id="release_year" name="release_year" min="1900">
+
+                    <label for="album_id">Album</label>
+                    <select id="album_id" name="album_id"></select>
+
+                    <div class="buttons">
+                        <button type="button" id="create_button" onclick="createSong()">Create</button>
+                        <button type="button" id="update_button" onclick="updateSong()" disabled>Update</button>
+                        <button type="button" id="clear_button" onclick="clearForm()">Clear</button>
+                    </div>
+                </form>
+                <p id="message"></p>
+            </section>
+
+            <section class="card">
+                <h2>All songs</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Song name</th>
+                            <th>Release year</th>
+                            <th>Album</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="song_rows"></tbody>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; Aidan Hughes | CS230</p>
+        </footer>
+        <script src="songs.js"></script>
+    </body>
+</html>

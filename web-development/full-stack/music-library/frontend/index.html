@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Library</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <nav id="nav_bar">
+                <a href="index.html" class="current">Home</a>
+                <a href="artists.html">Artists</a>
+                <a href="albums.html">Albums</a>
+                <a href="songs.html">Songs</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="card">
+                <h1>Music Library</h1>
+                <p>
+                    A small library of artists, albums and songs. Each page reads its table from the API
+                    and lets you create, update and delete records.
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>In the library</h2>
+                <p id="message"></p>
+                <div class="summary">
+                    <a class="summary_box" href="artists.html">
+                        <span class="summary_count" id="artist_count">-</span>
+                        <span>Artists</span>
+                    </a>
+                    <a class="summary_box" href="albums.html">
+                        <span class="summary_count" id="album_count">-</span>
+                        <span>Albums</span>
+                    </a>
+                    <a class="summary_box" href="songs.html">
+                        <span class="summary_count" id="song_count">-</span>
+                        <span>Songs</span>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; Aidan Hughes | CS230</p>
+        </footer>
+        <script src="home.js"></script>
+    </body>
+</html>

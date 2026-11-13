@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Artists | Music Library</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <nav id="nav_bar">
+                <a href="index.html">Home</a>
+                <a href="artists.html" class="current">Artists</a>
+                <a href="albums.html">Albums</a>
+                <a href="songs.html">Songs</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="card">
+                <h1>Artists</h1>
+                <form id="artist_form">
+                    <label for="artist_name">Artist name</label>
+                    <input type="text" id="artist_name" name="artist_name">
+
+                    <label for="genre">Genre</label>
+                    <input type="text" id="genre" name="genre">
+
+                    <label for="monthly_listeners">Monthly listeners</label>
+                    <input type="number" id="monthly_listeners" name="monthly_listeners" min="0">
+
+                    <div class="buttons">
+                        <button type="button" id="create_button" onclick="createArtist()">Create</button>
+                        <button type="button" id="update_button" onclick="updateArtist()" disabled>Update</button>
+                        <button type="button" id="clear_button" onclick="clearForm()">Clear</button>
+                    </div>
+                </form>
+                <p id="message"></p>
+            </section>
+
+            <section class="card">
+                <h2>All artists</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Artist name</th>
+                            <th>Genre</th>
+                            <th>Monthly listeners</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="artist_rows"></tbody>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; Aidan Hughes | CS230</p>
+        </footer>
+        <script src="artists.js"></script>
+    </body>
+</html>

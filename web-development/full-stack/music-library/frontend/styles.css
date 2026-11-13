@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+
+/* page */
+body{
+    background-color: #E8EEF2;
+    color: #1F2A33;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* keeps the footer at the bottom on short pages */
+}
+
+main{
+    flex: 1;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto; /* centers horizontally */
+    padding: 20px;
+}
+
+/* navbar and footer */
+header, footer{
+    background-color: #1F2A33;
+    padding: 12px 20px;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+nav a{
+    color: #E8EEF2;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav a:hover, nav a.current{
+    background-color: #3A6EA5; /* current page stays highlighted */
+}
+
+footer p{
+    color: #E8EEF2;
+    margin: 0;
+}
+
+/* cards */
+.card{
+    background-color: #FFFFFF;
+    border: 1px solid #C5D0D8;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow-x: auto; /* lets a wide table scroll inside the card on small screens */
+}
+
+.card h1, .card h2{
+    margin-top: 0;
+}
+
+/* home page counts */
+.summary{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.summary_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    min-width: 150px;
+    padding: 20px;
+    border: 1px solid #C5D0D8;
+    border-radius: 10px;
+    color: #1F2A33;
+    text-decoration: none;
+}
+
+.summary_box:hover{
+    border-color: #3A6EA5;
+}
+
+.summary_count{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* forms */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-width: 400px;
+}
+
+input, select{
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #C5D0D8;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    font-size: 15px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #3A6EA5;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2B5480;
+}
+
+button:disabled{
+    background-color: #A9B6C0;
+    cursor: default;
+}
+
+.delete_button{
+    background-color: #C14953;
+}
+
+.delete_button:hover{
+    background-color: #9C3A43;
+}
+
+/* result of the last request */
+#message{
+    min-height: 20px; /* stops the page jumping when a message appears */
+    margin-bottom: 0;
+}
+
+#message.error{
+    color: #C14953;
+}
+
+/* tables */
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border: 1px solid #C5D0D8;
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: #E8EEF2;
+}
+
+td button{
+    margin-right: 5px;
+}
+
+@media (max-width: 700px){
+    main{
+        padding: 10px;
+    }
+
+    nav{
+        flex-wrap: wrap;
+    }
+}
