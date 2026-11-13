@@ -20,6 +20,10 @@ node_modules/
 __pycache__/
 .ipynb_checkpoints/
 
+# PyTorch checkpoints and the Shakespeare text (downloaded from Project Gutenberg, not committed)
+*.pt
+shakespeare.txt
+
 # SQLite databases (kept only where an assignment specification requires the file)
 *.db
 !web-development/backend/book-management-api/database.db
