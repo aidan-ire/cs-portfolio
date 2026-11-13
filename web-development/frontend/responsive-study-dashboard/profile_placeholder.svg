@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+    <!-- placeholder profile picture: round background with a head and shoulders outline -->
+    <clipPath id="round">
+        <circle cx="150" cy="150" r="150"/>
+    </clipPath>
+    <g clip-path="url(#round)">
+        <rect width="300" height="300" fill="#EFD6AC"/>
+        <circle cx="150" cy="115" r="55" fill="#5F4A2F"/>
+        <path d="M45 300 C45 215 95 190 150 190 C205 190 255 215 255 300 Z" fill="#5F4A2F"/>
+    </g>
+</svg>

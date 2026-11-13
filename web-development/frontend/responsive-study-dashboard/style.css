@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFD6AC; /* changes background of webpage to yellow */
+    font-family: Arial;/*Specifies font family*/
+    margin: 0; /*Sets the margin of the body to 0*/
+    display: flex; /*Puts items in the body into a flex container*/
+    flex-direction: column; /*Specifies the direction of the flex object*/
+}
+
+main {
+    display: flex; /*Puts items in the body into a flex container*/
+    justify-content: center; /*Centres items*/
+    flex: 1; /*tells items in main to take up same amount of space in flex-container*/
+}
+
+nav, header {
+    background-color: #330F0A;
+    padding: 12px;
+}
+
+nav a {
+    text-decoration: none; /*Removes decoration from links*/
+    color: #EFD6AC;
+}
+
+nav a:hover {
+    color: #E0E2DB;
+    text-decoration: #EFD6AC wavy underline; /*adds decoration to text when being hovered*/
+}
+
+nav ul{
+    list-style-type: none; /*removes decoration eg bulletpts*/
+    display: flex; /*Puts ul items into a flex container*/
+    flex-direction: row; /*tells items to align as a row*/
+    margin: 0;
+    padding: 0;
+}
+
+#welcome_banner {
+    width: 100%;           
+    font-size: 24px;       
+    font-weight: bold;     
+    text-align: center;    
+    margin-bottom: 10px; /*adding bottom margin to ensure welcome isnt sitting on top of cards*/
+}
+
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.profile_card, .goals_card, .status_card {
+    border: 10px groove #5F4A2F; /*adds a funky 70's style to cards*/
+    border-radius: 15px; /*makes cards rounded*/
+    padding: 15px;
+    min-height: 400px; /*cards can grow if the content needs more room*/
+    width: 360px; /*three cards plus margins and gaps fit in one row at 1280px*/
+    background-color: #330F0A;
+    margin: 20px;
+    color: #EFD6AC;
+}
+
+.profile_card:hover, .goals_card:hover, .status_card:hover{
+    transform: scale(1.02); /*adds the effect to make the box look bigger*/
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5); /*adds shadow effects*/
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /*time taken to show the effects*/
+}
+
+.intro {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+    padding: 10px;
+    color: #EFD6AC;
+}
+
+.profile_card h1 { /*Allows the title of the card and the photo to render beside each other */
+    display: flex;
+    align-items: center; 
+    gap: 40px;           /* Adds space between name and the photo */
+}
+
+.goals_card h1 { /*Allows the title of the card and the button to render beside each other */
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#profile_pic {
+    width: 100px;
+    height: auto; 
+}
+
+button {
+    border-radius: 5px;
+    height: 30px;
+    border: 1px groove #624133;
+    background-color: #F3F9D2;
+    color: #624133;
+}
+
+@media (max-width: 700px){
+
+    .cards{
+        flex-direction: column; /*stacks the cards one under another*/
+        gap: 5px; /*lowering gap as stated for smaller screens*/
+    }
+
+    .profile_card, .goals_card, .status_card { /*essentially the same but now the cards show as a column instead row of 3*/
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin: 10px;
+        width: 300px;
+        min-height: 0;
+        height: auto;
+    }
+
+    .profile_card p, .status_card p { /*making font smaller on smaller screens*/
+        font-size: 13px;
+    }
+
+    .goals_card li{ /*making font smaller on smaller screens*/
+        font-size: 13px;
+    }
+
+    #links{ /*essentially the same but now the links show as a column instead row of 3*/
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }   
+    
+    #profile_pic{ /*Hiding profile pic as stated*/
+        display:none;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+#indicator::after {
+    content: attr(status);
+}
+#indicator[status="Active"]::after {
+    color: #0A874A; /* Green */
+}
+
+#indicator[status="Pending"]::after {
+    color: #FFA500; /* Orange */
+}
+
+#indicator[status=""]::after {
+    content: "Active";
+    color: #0A874A; /* Green */
+}

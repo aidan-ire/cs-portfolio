@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Study Dashboard</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <nav id="nav_bar">
+                <h1 id="title_page">My Study Dashboard</h1>
+                <ul id="links">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Tasks</a></li>
+                    <li><a href="">Profile</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="cards">
+                <p id="welcome_banner"></p>
+                <section class="profile_card">
+                    <h1>
+                        Aidan Hughes 
+                        <img src="profile_placeholder.svg" alt="Placeholder profile picture showing a head and shoulders outline" id="profile_pic">
+                    </h1>
+
+                    <p class ="intro">
+                        Hi, I am a 2nd year Computer Science and Software Engineering student.
+                        I work part time as a waiter while studying to fund my education and day-to-day. I enjoy cooking in my free time and going on walks while listening to music.
+                    </p>
+                </section>
+
+                <section class="goals_card">
+                    <h1>
+                        Weekly Goals
+                        <button onclick="showGoals()">Show Goals</button>
+                    </h1>
+                    <ul id="weekly_goals">
+                        <li>Pass CS355 midterm</li>
+                        <li>Apply for Spur Internship</li>
+                        <li>Revise my JavaScript notes</li>
+                        <li>Finishing my A.I slides</li>
+                    </ul>
+                    <ul id="goals_ul"></ul>
+                </section>
+
+                <section class="status_card">
+                    <h1>Study Status</h1>
+                    <p id="status_panel"> 
+                    Status: <span id="indicator" status=""></span>
+                    </p>
+                    <button id="change_status" onclick="cycleStatus()">Change Status</button>
+
+
+                    <p>Study Sessions Today: <span id ="count">0</span></p>
+                    <button onclick="resetCount()">Reset</button>
+                    <button onclick="increaseCount()">Add Session</button>
+                    <button onclick="decreaseCount()">Decrease Session</button>
+                </section>
+            </div>
+        </main>
+
+    <footer>
+        <p>&copy; Aidan Hughes | CS230 </p>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
