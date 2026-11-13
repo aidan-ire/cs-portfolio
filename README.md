@@ -20,7 +20,7 @@ compile and run it, and sample output.
 - [CS240 sockets and RMI](operating-systems-and-concurrency/networking/sockets-and-rmi/): TCP sockets in C and Java, and Java RMI.
 - [CS240 readers-writers](operating-systems-and-concurrency/concurrency/readers-writers/): a multithreaded simulation under readers-first and writers-first policies.
 - [CS230 full-stack music library](web-development/full-stack/music-library/): an Express and SQLite API with a plain JavaScript frontend.
-- [CS325 Matrix class](cpp/matrix-class/): a C++ integer matrix with dynamic memory and operator overloading (in progress).
+- [CS325 Matrix class](cpp/matrix-class/): a C++ integer matrix with dynamic memory and operator overloading.
 - [ML gradient descent from scratch](machine-learning/linear-regression-gradient-descent/): linear regression trained with gradient descent in a notebook.
 - [ML Shakespeare transformer](machine-learning/char-transformer-shakespeare/): character-level transformer language model trained on the complete works of Shakespeare.
 

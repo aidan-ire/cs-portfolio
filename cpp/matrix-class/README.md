@@ -1,6 +1,6 @@
 # CA 3: Matrix class
 
-**Status: in progress.**
+**Status: complete.** All 22 test cases pass (22 passed, 0 failed).
 
 An integer `Matrix` class that stores its values in a dynamically allocated 2D array and frees the
 memory in its destructor.
