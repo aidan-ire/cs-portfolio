@@ -1,4 +1,4 @@
-# Lab 09: Inheritance
+# Inheritance
 
 Subclasses that reuse a superclass with `extends` and `super`, override its methods, and are used through superclass references (polymorphism), plus an abstract class. Each folder is self-contained: the classes, a `Test…` class with a `main`, and a short README with how to run it and an example run.
 

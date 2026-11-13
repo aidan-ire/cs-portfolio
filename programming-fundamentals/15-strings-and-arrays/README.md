@@ -1,4 +1,4 @@
-# Lab 06: Strings and arrays
+# Strings and arrays
 
 String building, digit grouping and counting, with arrays used for results and tallies. Each folder holds one class and a short README with how to run it and an example run.
 

@@ -1,4 +1,4 @@
-# Lab 9: Dijkstra's algorithm and longest common prefix
+# Dijkstra's algorithm and longest common prefix
 
 Pen and paper: find the shortest path between two vertices of a weighted graph with Dijkstra's
 algorithm. Programming: find the longest common prefix of a list of words.

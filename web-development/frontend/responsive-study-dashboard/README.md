@@ -1,4 +1,4 @@
-# Assignment 2: responsive study dashboard
+# Responsive study dashboard
 
 A single-page study dashboard in HTML, CSS and JavaScript. It has a profile card, a weekly goals card
 and a study status card, changes layout at 700px, and has a few small interactive parts.

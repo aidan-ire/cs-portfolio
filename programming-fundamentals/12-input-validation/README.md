@@ -1,4 +1,4 @@
-# Lab 03: Input validation
+# Input validation
 
 Programs that check what the user types and keep asking until the input is acceptable, either by checking each character or by using `Scanner.hasNextInt`. Each folder holds one class and a short README with how to run it and an example run.
 

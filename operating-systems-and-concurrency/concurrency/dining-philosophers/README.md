@@ -1,4 +1,4 @@
-# Practical 8: the dining philosophers
+# The dining philosophers
 
 Five philosophers sit round a table with one chopstick between each pair. Each one thinks, gets hungry,
 picks up the chopstick on either side, eats and puts them back. Each chopstick is a binary semaphore.

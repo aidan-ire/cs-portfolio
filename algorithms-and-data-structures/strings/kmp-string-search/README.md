@@ -1,4 +1,4 @@
-# Lab 7: string searching (naive and KMP)
+# String searching (naive and KMP)
 
 Pen and paper: trace the naive string search and build the KMP partial match table. Programming:
 find every occurrence of a pattern in a text using KMP.

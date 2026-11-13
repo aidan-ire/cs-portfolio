@@ -1,4 +1,4 @@
-# Lab 3: AVL insertions and minimum depth
+# AVL insertions and minimum depth
 
 Pen and paper: insert ten values into an AVL tree, showing balance factors and rotations.
 Programming: find the minimum depth of a binary tree.

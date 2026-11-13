@@ -1,4 +1,4 @@
-# Assignment 4: book management API
+# Book management API
 
 A REST API for a list of books, built with Express and stored in SQLite. There is no frontend; every
 response is JSON.

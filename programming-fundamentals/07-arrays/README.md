@@ -1,4 +1,4 @@
-# Lab 07: Arrays
+# Arrays
 
 Exercises on arrays of numbers and strings, searching them and swapping values. Each folder holds one class and a short README with how to run it and an example run.
 

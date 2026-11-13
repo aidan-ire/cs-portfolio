@@ -1,4 +1,4 @@
-# Lab 4: Huffman encoding and run-length encoding
+# Huffman encoding and run-length encoding
 
 Pen and paper: build a Huffman code for a short string and work out how much it compresses.
 Programming: run-length encode a string and print the compression ratio.

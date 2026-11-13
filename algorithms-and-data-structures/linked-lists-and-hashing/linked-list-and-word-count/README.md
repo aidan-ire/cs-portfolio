@@ -1,4 +1,4 @@
-# Lab 6: linked lists and hash tables
+# Linked lists and hash tables
 
 Five methods added to a singly linked list of integers (`get`, `insert_sorted`, `reverse`,
 `sort_list`, `merge_lists`), and a word count of *The Picture of Dorian Gray* using a `HashMap` to

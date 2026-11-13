@@ -1,4 +1,4 @@
-# Lab 8: quicksort
+# Quicksort
 
 Pen and paper: trace quicksort on nine numbers, identifying the pivots and swaps. Programming: sort
 an array with a hand-written quicksort.

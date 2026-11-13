@@ -1,4 +1,4 @@
-# Practical 4: process creation and pipes
+# Process creation and pipes
 
 Creating processes with `fork`, replacing a process's program with `exec`, and passing data between a
 parent and its child through an unnamed pipe.

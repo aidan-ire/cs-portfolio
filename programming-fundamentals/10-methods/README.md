@@ -1,6 +1,6 @@
-# Lab 01: Revision and methods
+# Revision and methods
 
-Revision of first-year topics, with each program's main logic moved into a `public static` method called from `main`. Each folder holds one class and a short README with how to run it and an example run.
+Revision of the earlier topics, with each program's main logic moved into a `public static` method called from `main`. Each folder holds one class and a short README with how to run it and an example run.
 
 | Exercise | Folder | What it does |
 |---|---|---|

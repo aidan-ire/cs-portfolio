@@ -1,4 +1,4 @@
-# Lab week 11: introduction to graphs
+# Introduction to graphs
 
 Load an edge list of airport routes into an adjacency list and analyse it: count the nodes and edges,
 work out the density, find the degree of an airport and the five best connected airports, find

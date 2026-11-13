@@ -1,4 +1,4 @@
-# CA 2: string functions
+# String functions
 
 C-string functions written without the built-in C++ string class, plus test cases for each one.
 

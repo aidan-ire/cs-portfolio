@@ -13,14 +13,12 @@ java ASCIIDifference
 
 ```
 Please input a word: Dublin
-M (77) -> a (97): 20
-a (97) -> y (121): 24
-y (121) -> n (110): -11
-n (110) -> o (111): 1
-o (111) -> o (111): 0
-o (111) -> t (116): 5
-t (116) -> h (104): -12
-Largest jump: a to y
+D (68) -> u (117): 49
+u (117) -> b (98): -19
+b (98) -> l (108): 10
+l (108) -> i (105): -3
+i (105) -> n (110): 5
+Largest jump: D to u
 ```
 
 ```

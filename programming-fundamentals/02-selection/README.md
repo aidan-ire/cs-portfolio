@@ -1,4 +1,4 @@
-# Lab 02: Selection
+# Selection
 
 Exercises on `if` statements, the ternary operator and decisions on numbers. Each folder holds one class and a short README with how to run it and an example run.
 

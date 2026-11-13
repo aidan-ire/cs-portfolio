@@ -1,4 +1,4 @@
-# Assignment 1: mini profile site
+# Mini profile site
 
 A two-page site in HTML and CSS only: a home page with three cards (about me, skills and a weekly
 timetable) and a contact page with a form.

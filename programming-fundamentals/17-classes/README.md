@@ -1,4 +1,4 @@
-# Lab 08: Classes
+# Classes
 
 Writing classes with private fields, constructors, getters and setters that validate their input, and methods that work on the object's state. Each folder holds the class, a `Test…` class with a `main` that uses it, and a short README with how to run it and an example run.
 

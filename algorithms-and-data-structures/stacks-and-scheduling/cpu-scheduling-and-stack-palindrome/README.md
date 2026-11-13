@@ -1,4 +1,4 @@
-# Lab 5: CPU scheduling and stacks
+# CPU scheduling and stacks
 
 Mostly pen and paper: Gantt charts and performance metrics for FCFS, SJF, SRTF, Round Robin and
 priority scheduling, with a short comparison of the algorithms. The programming task checks whether a

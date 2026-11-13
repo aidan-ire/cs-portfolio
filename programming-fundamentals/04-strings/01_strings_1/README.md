@@ -13,9 +13,9 @@ java Strings1
 
 ```
 Please input a word: Dublin
-Length: 8
-First character: M
-Last character: h
+Length: 6
+First character: D
+Last character: n
 Upper case: DUBLIN
 Lower case: dublin
 ```

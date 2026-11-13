@@ -1,4 +1,4 @@
-# Practical 5: named pipes and message queues
+# Named pipes and message queues
 
 Two ways for unrelated processes to communicate: named pipes, which have a name in the file system so
 any process can open them, and POSIX message queues, which hold whole messages with priorities. In

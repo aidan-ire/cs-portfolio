@@ -1,4 +1,4 @@
-# Assignment 3: countdown timer
+# Countdown timer
 
 A one-minute countdown shown on an apple, with Start, Pause and Stop buttons. When it reaches zero the
 page shows an alert saying to take a short break.

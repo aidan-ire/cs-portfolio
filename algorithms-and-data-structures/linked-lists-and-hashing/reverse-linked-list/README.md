@@ -1,4 +1,4 @@
-# Lab 1: reverse a linked list
+# Reverse a linked list
 
 Two parts: diagrams of three kinds of linked list, and a Java method that reverses a singly linked
 list.

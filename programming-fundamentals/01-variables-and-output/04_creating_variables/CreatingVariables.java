@@ -4,7 +4,7 @@ public class CreatingVariables{
         double height = 1.75;
         char grade = 'A';
         boolean enrolled = true;
-        String module = "CS161";
+        String module = "CS101";
 
         System.out.println("age: " + age);
         System.out.println("height: " + height);

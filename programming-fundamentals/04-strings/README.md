@@ -1,4 +1,4 @@
-# Lab 04: Strings
+# Strings
 
 Exercises on `String` methods and walking through a string character by character. Each folder holds one class and a short README with how to run it and an example run.
 

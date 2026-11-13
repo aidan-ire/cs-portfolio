@@ -1,4 +1,4 @@
-# Practical 2: command shell and shell scripts
+# Command shell and shell scripts
 
 Using the bash shell as more than a prompt: starting and stopping shells, file permissions, background
 jobs, `grep`, redirection and pipes, and then putting commands into executable script files that take

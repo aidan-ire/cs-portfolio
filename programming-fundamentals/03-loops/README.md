@@ -1,4 +1,4 @@
-# Lab 03: Loops
+# Loops
 
 Exercises on `for` and `while` loops, `break`, and counting patterns. Each folder holds one class and a short README with how to run it and an example run.
 

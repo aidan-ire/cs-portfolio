@@ -1,4 +1,4 @@
-# Lab 1: Sieve of Eratosthenes and the Goldbach conjecture
+# Sieve of Eratosthenes and the Goldbach conjecture
 
 Three parts: use the Sieve of Eratosthenes to count the primes up to 1000, count how many steps the
 sieve takes as the limit grows, and use the sieve to check the Goldbach conjecture for a given even

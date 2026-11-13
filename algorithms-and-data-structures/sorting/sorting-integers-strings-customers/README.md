@@ -1,4 +1,4 @@
-# Lab 3: sorting algorithms
+# Sorting algorithms
 
 Three tasks on bubble sort, insertion sort and selection sort: count the swaps made when sorting 1000
 integers, change one of the algorithms to sort strings, and sort an array of `Customer` objects in

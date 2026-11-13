@@ -1,4 +1,4 @@
-# Lab 2: working with arrays
+# Working with arrays
 
 Three tasks: check whether an array is a palindrome, time linear search against binary search as the
 array grows, and check whether a square of numbers typed in by the user is a magic square.

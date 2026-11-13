@@ -1,4 +1,4 @@
-# Practical 10: multithreaded date server
+# Multithreaded date server
 
 The Java socket date server from practical 6 handled one client at a time. Here it is made
 multithreaded: the main thread only accepts connections, and each one is passed to a new worker thread

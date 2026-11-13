@@ -1,4 +1,4 @@
-# Lab 6: ElGamal encryption
+# ElGamal encryption
 
 Pen and paper: break a small ElGamal key by brute force and recover the message. Programming:
 encrypt a message with ElGamal.

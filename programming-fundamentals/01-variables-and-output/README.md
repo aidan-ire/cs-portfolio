@@ -1,4 +1,4 @@
-# Lab 01: Variables and output
+# Variables and output
 
 Exercises on printing, variables, arithmetic and the modulus operator. Each folder holds one class and a short README with how to run it and an example run.
 

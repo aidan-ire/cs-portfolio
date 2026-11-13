@@ -1,4 +1,4 @@
-# Practical 1: Unix basics
+# Unix basics
 
 An introduction to working at the shell prompt on Ubuntu: moving around the file system, creating,
 copying, comparing and deleting files, and looking at the processes that are running. There is no

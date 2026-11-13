@@ -1,4 +1,4 @@
-# Practical 9: readers and writers
+# Readers and writers
 
 Threads share a data item. Any number of readers may use it at the same time, but a writer needs it
 to itself. The practical asks for a multithreaded simulation under two policies: readers first (no

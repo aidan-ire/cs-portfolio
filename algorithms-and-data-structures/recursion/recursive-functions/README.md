@@ -1,4 +1,4 @@
-# Lab 4: recursion
+# Recursion
 
 Four recursive methods: the sum of the first n natural numbers, reversing a string, checking for a
 palindrome, and a power function that is also written with a loop so the two can be timed against

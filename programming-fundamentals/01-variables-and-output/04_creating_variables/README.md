@@ -16,5 +16,5 @@ age: 19
 height: 1.75
 grade: A
 enrolled: true
-module: CS161
+module: CS101
 ```

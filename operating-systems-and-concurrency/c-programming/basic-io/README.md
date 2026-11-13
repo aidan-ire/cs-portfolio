@@ -1,4 +1,4 @@
-# Practical 3: basic I/O programming in C
+# Basic I/O programming in C
 
 First C programs of the module: formatted I/O with `printf` and `scanf`, then the lower-level `read`,
 `write`, `open` and `close` system calls that work on file descriptors. The last program is a small

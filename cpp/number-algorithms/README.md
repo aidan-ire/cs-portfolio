@@ -1,4 +1,4 @@
-# CA 1: number algorithms
+# Number algorithms
 
 Five small programs that each read integers from standard input. Each file has a comment block
 explaining how the algorithm works.

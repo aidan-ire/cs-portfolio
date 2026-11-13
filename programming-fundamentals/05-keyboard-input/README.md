@@ -1,4 +1,4 @@
-# Lab 05: Keyboard input
+# Keyboard input
 
 Exercises on reading numbers, words and lines with `Scanner`. Each folder holds one class and a short README with how to run it and an example run.
 

@@ -1,4 +1,4 @@
-# Assignment 5: full-stack music library
+# Full-stack music library
 
 A music library with artists, albums and songs. The backend is an Express API over SQLite; the
 frontend is plain HTML, CSS and JavaScript that talks to it with `fetch()`.

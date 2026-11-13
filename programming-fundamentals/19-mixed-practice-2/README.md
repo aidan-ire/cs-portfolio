@@ -1,4 +1,4 @@
-# Lab 10: Mixed revision
+# Mixed revision
 
 Revision exercises that combine digits, strings, sorting and an `ArrayList`. Each folder holds one class and a short README with how to run it and an example run.
 

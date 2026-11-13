@@ -1,4 +1,4 @@
-# Lab 02: Methods and arrays
+# Methods and arrays
 
 Methods that take and return arrays, two kinds of linear search, and method overloading. Each folder holds one class and a short README with how to run it and an example run.
 

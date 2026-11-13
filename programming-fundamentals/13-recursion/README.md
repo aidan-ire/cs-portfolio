@@ -1,4 +1,4 @@
-# Lab 04: Recursion
+# Recursion
 
 Each exercise is solved with a recursive method: a base case that stops the recursion, and a call on a smaller input that moves towards it. Each folder holds one class and a short README with how to run it and an example run.
 

@@ -1,4 +1,4 @@
-# Lab 5: bit manipulation
+# Bit manipulation
 
 Pen and paper: evaluate a bitwise expression by hand. Programming: reverse the bits of a 32-bit
 integer.

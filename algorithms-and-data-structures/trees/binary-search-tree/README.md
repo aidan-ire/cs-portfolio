@@ -1,4 +1,4 @@
-# Lab 2: binary search tree
+# Binary search tree
 
 Pen and paper: build a binary search tree from eight numbers, then delete them all. Programming:
 fill in the insert, height and traversal methods of a binary tree class.

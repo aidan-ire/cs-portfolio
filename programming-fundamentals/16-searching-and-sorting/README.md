@@ -1,4 +1,4 @@
-# Lab 07: Searching and sorting
+# Searching and sorting
 
 Selection, insertion and bubble sorts written by hand (no `Arrays.sort`), plus binary search used two ways: to find a gap in sorted data, and as a guessing game. Each folder holds one class and a short README with how to run it and an example run.
 

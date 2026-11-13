@@ -1,4 +1,4 @@
-# Lab 05: Methods and recursion
+# Methods and recursion
 
 More practice with methods, overloading and recursion. Each folder holds one class and a short README with how to run it and an example run.
 

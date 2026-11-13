@@ -1,4 +1,4 @@
-# Lab 06: Loops and strings
+# Loops and strings
 
 Exercises on nested loops, digit tricks and checks on strings. Each folder holds one class and a short README with how to run it and an example run.
 

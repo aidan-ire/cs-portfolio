@@ -1,4 +1,4 @@
-# Lab 08: Nested loops and 2D arrays
+# Nested loops and 2D arrays
 
 Exercises on nested loops over tables and grids, 2D arrays and flattening. Each folder holds one class and a short README with how to run it and an example run.
 

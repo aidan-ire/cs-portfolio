@@ -1,4 +1,4 @@
-# Lab week 10: Monte Carlo simulation
+# Monte Carlo simulation
 
 Three probabilities estimated by simulation: exactly 7 heads in 10 coin flips, a straight flush in a
 5-card poker hand, and a 1D random walk being back at its starting point after 20 steps. Each program

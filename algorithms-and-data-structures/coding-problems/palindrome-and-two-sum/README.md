@@ -1,4 +1,4 @@
-# CS310 Programming Languages & Compilers
+# Palindrome and two sum
 
 Two short Java programs.
 

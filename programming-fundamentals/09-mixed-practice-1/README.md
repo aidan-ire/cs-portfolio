@@ -1,4 +1,4 @@
-# Lab 09: Mixed revision
+# Mixed revision
 
 Exercises on a mix of the earlier topics. Each folder holds one class and a short README with how to run it and an example run.
 

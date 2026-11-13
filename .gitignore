@@ -33,7 +33,7 @@ shakespeare.txt
 *.pdf
 *.zip
 
-# CS240: compiled C programs and the files they create when run
+# Operating systems: compiled C programs and the files they create when run
 operating-systems-and-concurrency/c-programming/basic-io/p3[a-f]
 operating-systems-and-concurrency/processes-and-ipc/fork-and-pipes/p4[a-h]
 operating-systems-and-concurrency/processes-and-ipc/fork-and-pipes/p4problem

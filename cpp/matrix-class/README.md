@@ -1,4 +1,4 @@
-# CA 3: Matrix class
+# Matrix class
 
 **Status: complete.** All 22 test cases pass (22 passed, 0 failed).
 

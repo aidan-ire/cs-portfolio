@@ -1,4 +1,4 @@
-# Practical 6: sockets and remote method invocation
+# Sockets and remote method invocation
 
 Communication between processes that don't share a parent or a file system, at three levels: TCP
 sockets through the C socket calls, the same idea through Java's `Socket` classes, and Java RMI, where

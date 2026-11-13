@@ -18,7 +18,7 @@ public class ModuleCodes{
         sc.close();
     }
 
-    // a valid code is two capital letters followed by three digits, eg. CS161
+    // a valid code is two capital letters followed by three digits, eg. CS101
     public static boolean isModuleCode(String code){
         if(code.length() != 5) return false;
 

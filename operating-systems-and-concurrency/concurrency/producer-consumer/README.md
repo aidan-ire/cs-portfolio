@@ -1,4 +1,4 @@
-# Practical 7: the producer consumer problem
+# The producer consumer problem
 
 A bounded buffer shared by producer threads that put items in and consumer threads that take them out,
 synchronised with semaphores. Producers must wait when the buffer is full, consumers must wait when it
