@@ -6,7 +6,7 @@ compile and run it, and sample output.
 
 | Folder | Contents |
 |---|---|
-| [programming-fundamentals](programming-fundamentals/) | CS161 Introduction to Computer Science I (Java); CS162 Introduction to Computer Science II (Java), to be added |
+| [programming-fundamentals](programming-fundamentals/) | CS161 Introduction to Computer Science I (Java); CS162 Introduction to Computer Science II (Java) |
 | [algorithms-and-data-structures](algorithms-and-data-structures/) | CS210 and CS211 algorithms and data structures (Java), CS230 web development (HTML, CSS, JavaScript, Node), CS240 operating systems (C, Java, shell) |
 | [cpp](cpp/) | CS310 programming languages and compilers (Java), CS325 professional software development (C++) |
 | [machine-learning](machine-learning/) | machine learning notebooks (Python) |
