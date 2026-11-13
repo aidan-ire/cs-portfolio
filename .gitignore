@@ -28,3 +28,22 @@ __pycache__/
 # course material and archives
 *.pdf
 *.zip
+
+# CS240: compiled C programs and the files they create when run
+operating-systems-and-concurrency/c-programming/basic-io/p3[a-f]
+operating-systems-and-concurrency/processes-and-ipc/fork-and-pipes/p4[a-h]
+operating-systems-and-concurrency/processes-and-ipc/fork-and-pipes/p4problem
+operating-systems-and-concurrency/processes-and-ipc/named-pipes-and-message-queues/namedpipe
+operating-systems-and-concurrency/processes-and-ipc/named-pipes-and-message-queues/simpleoutput
+operating-systems-and-concurrency/processes-and-ipc/named-pipes-and-message-queues/outputredirect
+operating-systems-and-concurrency/processes-and-ipc/named-pipes-and-message-queues/mqueuewriter
+operating-systems-and-concurrency/processes-and-ipc/named-pipes-and-message-queues/mqueuereader
+operating-systems-and-concurrency/processes-and-ipc/named-pipes-and-message-queues/mymqueuewriter
+operating-systems-and-concurrency/processes-and-ipc/named-pipes-and-message-queues/my_pipe
+operating-systems-and-concurrency/processes-and-ipc/named-pipes-and-message-queues/fifo
+operating-systems-and-concurrency/processes-and-ipc/named-pipes-and-message-queues/pipeout
+operating-systems-and-concurrency/processes-and-ipc/named-pipes-and-message-queues/pipeout.gz
+operating-systems-and-concurrency/networking/sockets-and-rmi/socketserver
+operating-systems-and-concurrency/networking/sockets-and-rmi/socketclient
+operating-systems-and-concurrency/concurrency/producer-consumer/boundedbuffer
+operating-systems-and-concurrency/unix-and-shell/shell-scripts/scriptout
